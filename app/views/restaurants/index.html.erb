@@ -1,6 +1,6 @@
-<h1>Restaurants#index</h1>
+<h1>Bienvenue, veuillez sélectionner un restaurant</h1>
 <p>Find me in app/views/restaurants/index.html.erb</p>
-<%= link_to 'Ajouter un restaurant', new_restaurant_path %>
+<%= link_to 'Ajouter un restaurant', new_restaurant_path, class: "btn btn-primary" %>
 <div class="container">
   <div class="row">
 <% @restaurants.each do |restaurant| %>
